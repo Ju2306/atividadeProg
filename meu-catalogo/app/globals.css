@@ -2,18 +2,18 @@
  
 body {
   font-family: system-ui, sans-serif;
-  background: #f4f6f8;
-  color: #1f2937;
+  background: #e4f1d7;
+  color: #012e0b;
 }
  
-a { color: #2563eb; text-decoration: none; }
+a { color: #5e8600; text-decoration: none; }
  
 .topo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #1a3a5c;
+  background: #324d00;
 }
 .topo a { color: white; }
 .topo nav { display: flex; gap: 1.5rem; }
@@ -38,12 +38,12 @@ a { color: #2563eb; text-decoration: none; }
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .card:hover { box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); }
-.card h2 { font-size: 1.1rem; color: #1a3a5c; margin-bottom: 0.3rem; }
+.card h2 { font-size: 1.1rem; color: #324d00; margin-bottom: 0.3rem; }
  
 .etiqueta {
   display: inline-block;
   background: #dbeafe;
-  color: #1a3a5c;
+  color: #324d00;
   font-size: 0.8rem;
   padding: 0.15rem 0.6rem;
   border-radius: 999px;
@@ -62,4 +62,4 @@ a { color: #2563eb; text-decoration: none; }
   font-size: 1rem;
 }
 .filtros input { flex: 1; }
-.filtros button { background: #2563eb; color: white; border: none; cursor: pointer; }
+.filtros button { background: #5e8600; color: white; border: none; cursor: pointer; }
