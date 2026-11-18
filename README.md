@@ -14,16 +14,16 @@ Comandos para rodar o projeto
    Print das páginas.
 
    Imagem da aba de detalhes da planta selecionada:
-   ![printDetalhes](./imagens/Detalhes.png)
+   ![printDetalhes](meu-catalogo/imagens/Detalhes.png)
 
    Imagem do filtro de categoria da planta:
-   ![printFiltro](./imagens/Filtro.png)
+   ![printFiltro](meu-catalogo/imagens/Filtro.png)
 
    Imagem da lista geral das plantas:
-   ![printLista](./imagens/Lista.png)
+   ![printLista](meu-catalogo/imagens/Lista.png)
 
    Imagem da do filtro de pesquisa por digitação: 
-   ![printPesquisa](./imagens/Pesquisa.png)
+   ![printPesquisa](meu-catalogo/imagens/Pesquisa.png)
 
 Melhoria: Ordenação alfabética
 
