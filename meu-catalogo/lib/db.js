@@ -4,7 +4,7 @@ import path from 'path';
 
 const db = new Database(path.join(process.cwd(), 'data', 'plantas.db'));
 
-export function listarPlantas(busca = '', categoria = '') {
+export function listarPlantas(busca = '', categoria = '', ordem = 'asc') {
   let sql = 'SELECT id, nome, categoria, habitat FROM plantas WHERE nome LIKE ?';
   const valores = [`%${busca}%`];
 
@@ -13,7 +13,9 @@ export function listarPlantas(busca = '', categoria = '') {
     valores.push(categoria);
   }
 
-  sql += ' ORDER BY nome';
+  const direcao = ordem === 'desc' ? 'DESC' : 'ASC';
+
+  sql += ` ORDER BY nome COLLATE NOCASE ${direcao}`;
 
   return db.prepare(sql).all(...valores);
 }

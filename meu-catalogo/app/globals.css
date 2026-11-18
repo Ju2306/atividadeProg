@@ -63,3 +63,28 @@ a { color: #5e8600; text-decoration: none; }
 }
 .filtros input { flex: 1; }
 .filtros button { background: #5e8600; color: white; border: none; cursor: pointer; }
+
+
+.ordenacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ordenacao span {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.ordenacao button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #5e8600;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
